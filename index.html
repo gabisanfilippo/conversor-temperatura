@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="index.js"></script>
+    <header>
+        <h1>Conversor de temperatura</h1>
+        <div class="imersaoDev">
+            <h2>Imersão</h2>
+            <h2 id="dev">Dev</h2>
+        </div>
+    </header>
+    <section>
+        <h3>Escolha uma escala da temperatura</h3>
+        <select id="inicialTemp">
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Celsius">Celsius</option>
+            <option value="Kelvin">Kelvin</option>
+        </select>
+        <h3>Insira a temperatura (para números com vírgula, colocar ponto)</h3>
+        <input id="number" type="number">
+    </section>
+    <section>
+        <h3>Escolha uma escala para qual você deseja converter</h3>
+        <select id="finalTemp">
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Celsius">Celsius</option>
+            <option value="Kelvin">Kelvin</option>
+        </select>
+        <button onclick="conversor()">Converter</button>
+    </section>
+    <section>
+        <h3>Valor Convertido:</h3>
+        <p id="result"></p>
+    </section>
+</body>
+</html>

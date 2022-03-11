@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Roboto+Mono&display=swap');
+body {
+    font-family: 'Roboto Mono';
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.imersaoDev{
+    display: flex;
+    justify-content: center;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+section {
+    text-align: center;
+    padding: 2%;
+}
+select, input{
+    width: 70%;
+    margin: 0, 50%, 0, 50%;
+    font-family: 'Roboto Mono';
+}
+button {
+    display: flex;
+    margin: auto;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    background-color: blueviolet;
+    font-size: large;
+    font-family: 'Roboto Mono';
+}
+#dev {
+    background-color: blueviolet;
+    padding-left: 2%;
+}
+p {
+    background-color: blueviolet;
+    padding: 5%;
+    color: white;
+    font-size: larger;
+}
